@@ -4,7 +4,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import Nav from "./components/Navigation/Nav";
+import Nav from "./components/navigation/Nav";
 
 document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(

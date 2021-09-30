@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Workouts from "../Workouts";
+import Workouts from "../index/Workouts";
 import Home from "../Home";
 
 const Nav = () => {
