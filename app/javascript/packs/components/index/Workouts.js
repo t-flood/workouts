@@ -1,5 +1,8 @@
 import React from "react";
 
+// the next thing to do is to fetch the workouts from the backend
+//hold the workouts in state using useState
+
 const Workouts = () => {
   return (
     <div>
