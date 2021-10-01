@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+.navigation {
+  background-color: black;
+  color: white;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding: 20px;
+}
+
+.nav-list {
+  display: inline;
+  padding: 10px;
+}

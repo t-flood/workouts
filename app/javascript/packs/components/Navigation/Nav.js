@@ -8,11 +8,11 @@ const Nav = () => {
     <Router>
       <div>
         <nav>
-          <ul>
-            <li>
+          <ul className="navigation">
+            <li className="nav-list">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li className="nav-list">
               <Link to="/workouts">Workouts</Link>
             </li>
           </ul>
