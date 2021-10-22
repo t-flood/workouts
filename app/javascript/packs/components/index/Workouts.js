@@ -7,19 +7,12 @@ const Workouts = () => {
   useEffect(() => {
     fetch("/workouts.json")
       .then((response) => response.json())
-      .then((data) => setWorkoutList(data));
+      .then((data) =>
+        data.map((workout) => setWorkoutList(workoutList.push(workout)))
+      );
   }, []);
-  console.log(workoutList[0]);
 
-  return (
-    <div>
-      <ul>
-        {workoutList.map((workout) => (
-          <li key={workout.id}>{workout.name}</li>
-        ))}
-      </ul>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Workouts;
